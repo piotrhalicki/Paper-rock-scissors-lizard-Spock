@@ -25,7 +25,7 @@ if (choice1.toLowerCase() === choice2.toLowerCase()) {
 	return "Mamy remis!";
 }
 
-	else if (choice1 === "kamień") {			//kamien
+	else if (choice1 === "kamień" || choice1 === "kamien") {			//kamien
 		if (choice2 === "nożyczki") {
 			return "Kamień tępi nożyczki i wygrywa!";
 		}
@@ -55,7 +55,7 @@ if (choice1.toLowerCase() === choice2.toLowerCase()) {
 					}
 	}
 
-	else if (choice1 === "nożyczki") {			//nozyczki
+	else if (choice1 === "nożyczki" || choice1 === "nozyczki") {			//nozyczki
 		if (choice2 === "kamień") {
 			return "Kamień tępi nożyczki i wygrywa!";
 		}
